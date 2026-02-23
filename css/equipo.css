@@ -1,0 +1,66 @@
+/* css/equipo.css */
+.equipo-section {
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.equipo-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.equipo-card {
+    position: relative;
+    text-align: center;
+}
+
+.equipo-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.nombrePersona{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+     border: 2px solid #f0a500;
+}
+
+.equipo-card p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.social-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    /* background-color: #f0a500; */
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}

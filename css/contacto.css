@@ -1,0 +1,49 @@
+/* contacto.css */
+.contacto-section {
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contacto-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contacto-box {
+    border: 1px solid #f0a500;
+    padding: 30px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.contacto-box h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contacto-box p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contacto-box a {
+    color: #f0a500;
+    text-decoration: none;
+}
+
+.contacto-box a:hover {
+    text-decoration: underline;
+}

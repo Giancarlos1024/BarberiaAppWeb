@@ -1,0 +1,70 @@
+
+/* Servicios */
+.servicios-section {
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.servicios-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.servicios-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    color: #f0a500;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.servicio-item {
+    text-align: center;
+}
+
+.servicio-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.servicio-item img:hover {
+    transform: scale(1.05);
+}
+
+.servicio-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.categoria-btn {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.categoria-btn:hover {
+    color: #fff;
+}
+
+.categoria-btn.active {
+    color: #fff;
+    border-bottom: 2px solid #f0a500;
+    padding-bottom: 2px;
+}
+
+

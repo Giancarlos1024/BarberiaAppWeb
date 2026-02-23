@@ -1,0 +1,52 @@
+/* css/peinados.css */
+.peinados-section {
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.peinados-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.peinados-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.categoria {
+    cursor: pointer;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.categoria:hover,
+.categoria.activa {
+    color: #f0a500;
+    border-color: #f0a500;
+}
+
+.peinados-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.peinados-grid img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.peinados-grid img:hover {
+    transform: scale(1.05);
+}

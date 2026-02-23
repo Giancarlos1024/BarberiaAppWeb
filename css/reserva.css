@@ -1,0 +1,94 @@
+.reserva-section {
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+}
+
+.reserva-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.reserva-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.reserva-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.reserva-info p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.reserva-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.reserva-info ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.reserva-form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reserva-form input,
+.reserva-form select,
+.reserva-form textarea {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: #aaa;
+    font-size: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: border 0.3s ease;
+    
+}
+
+.reserva-form input:focus,
+.reserva-form select:focus,
+.reserva-form textarea:focus {
+    outline: none;
+    border: 1px solid #f0a500;
+   
+}
+
+.reserva-form input::placeholder,
+.reserva-form select::placeholder,
+.reserva-form textarea::placeholder {
+    color: #aaa;
+}
+
+
+.reserva-form button {
+    background: linear-gradient(90deg, #f0a500, #d77f45);
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.reserva-form button:hover {
+    background-color: #f0a500;
+}
